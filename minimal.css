@@ -7,8 +7,6 @@
 html, body {
 	margin: 0;
 	font-size: 24px;
-	background: white;
-	color: black;
 }
 
 header {
@@ -19,20 +17,20 @@ header {
 }
 
 header > a, main {
-	display: block;
 	max-width: 800px;
 	margin: auto;
 	padding: 0 3rem;
-}
-
-h1, h2 {
-	padding-top: 20px;
 }
 
 h3, p, ul, pre, img, blockquote, main > a {
 	padding: 0 0 0 1rem;
 	text-align: justify;
 	line-height: 1.5;
+}
+
+li {
+	margin-left: 2rem;
+	padding-left: 1rem;
 }
 
 pre {
@@ -54,28 +52,13 @@ blockquote::before {
 a {
 	display: block;
 	overflow-wrap: break-word;
-	color: black;
+	color: iherit;
 	text-decoration: underline 1.5px;
 	text-underline-offset: 0.3em;
 }
 
-a:hover {
-	color: grey !important;
-}
-
-main > a {
-	font-weight: bold;
-}
-
-li {
-	margin-left: 2rem;
-	padding-left: 1rem;
-}
-
-main {
-	padding-bottom: 40px;
-}
-
-img {
-	width: 70%;
-}
+a:hover { color: grey; }
+main > a { font-weight: bold; }
+main { padding-bottom: 40px; }
+h1, h2 { padding-top: 20px; }
+img { width: 70%; }

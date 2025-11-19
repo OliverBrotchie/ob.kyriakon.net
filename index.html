@@ -4,13 +4,77 @@
 		<meta charset="UTF-8" />
 		<meta name="description" content="Software engineer by trade, luddite by inclination, Orthodox at heart." />
   	<meta name="author" content="Oliver Brotchie" />
-		<meta name="keywords" content="orthodox, kyriakon" />
-		<link rel="stylesheet" href="minimal.css" />
+		<meta name="keywords" content="orthodox, kyriakon, rust" />
 		<link rel="icon" href="me.png" />
 		<link rel="alternate" type="application/atom+xml" href="index.xml" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<title>Oliver Brotchie.</title>
+		<style>
+			* {
+				box-sizing: border-box;
+				padding: 0;
+				margin: 40px 0 0 0;
+			}
+
+			html, body {
+				margin: 0;
+				font-size: 24px;
+			}
+
+			header {
+				margin: 0;
+				padding: 30px;
+				font-size: 1.3rem;
+				word-spacing: 0.1rem;
+			}
+
+			header > a, main {
+				max-width: 800px;
+				margin: auto;
+				padding: 0 3rem;
+			}
+
+			h3, p, ul, pre, img, blockquote, main > a {
+				padding: 0 0 0 1rem;
+				text-align: justify;
+				line-height: 1.5;
+			}
+
+			li {
+				margin-left: 2rem;
+				padding-left: 1rem;
+			}
+
+			pre {
+				font-size: 18px;
+				overflow-x: scroll;
+			}
+
+			blockquote {
+				font-weight: lighter;
+				font-style: italic;
+			} 
+
+			blockquote::before {
+				font-size: 1.5rem;
+				padding-right: 0.5rem;
+				content: "\201C";
+			}
+
+			a {
+				display: block;
+				overflow-wrap: break-word;
+				color: iherit;
+				text-decoration: underline 1.5px;
+				text-underline-offset: 0.3em;
+			}
+
+			a:hover { color: grey; }
+			main > a { font-weight: bold; }
+			main { padding-bottom: 40px; }
+			h1, h2 { padding-top: 20px; }
+			img { width: 70%; }
+		</style>
 	</head>
 	<body>
 		<header>
