@@ -17,6 +17,8 @@
 			}
 
 			html, body {
+			  color: light-dark(black, white);
+				background: light-dark(white, black);
 				margin: 0;
 				font-size: 24px;
 			}
@@ -61,15 +63,15 @@
 				content: "\201C";
 			}
 
-			a {
+			a, a:link, a:visited {
+				color: light-dark(black, white);
 				display: block;
 				overflow-wrap: break-word;
-				color: iherit;
 				text-decoration: underline 1.5px;
 				text-underline-offset: 0.3em;
 			}
 
-			a:hover { color: grey; }
+			a:hover, a:active { color: grey; }
 			main > a { font-weight: bold; }
 			main { padding-bottom: 40px; }
 			h1, h2 { padding-top: 20px; }
