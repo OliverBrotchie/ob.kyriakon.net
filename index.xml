@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
   <channel>
     <title>Oliver's Webpage.</title>
-    <link>https://oliver.minimal.space</link>
-    <description>A list of articles from Oliver's webpage.</description>
+    <link>https://oliver.kyriakon.net</link>
+    <description>I have removed my blog for the time being, check back soon!</description>
     <language>en-uk</language>
     <lastBuildDate>Teu, 3 Jan 2023 01:00:00</lastBuildDate>
-    <atom:link href="https://oliver.minimal.space/index.xml" rel="self" type="application/rss+xml"/>
+    <atom:link href="https://oliver.kyriakon.net/index.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Reclaiming Myself</title>
-      <link>https://oliver.minimal.space/blog/reclaiming-myself.html</link>
+      <title>Not a real article.</title>
+      <link>https://oliver.kyriakon.net/blog/not-a-real-article.html</link>
       <pubDate>Teu, 2 Jan 2023 12:00:00</pubDate>
-      <guid>https://oliver.minimal.space/blog/reclaiming-myself.html</guid>
+      <guid>https://oliver.kyriakon.net/blog/not-a-real-article.html</guid>
     </item>
   </channel>
 </rss>
